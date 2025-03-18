@@ -160,3 +160,10 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.amigoElegido{
+    color: #4a97b6;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
