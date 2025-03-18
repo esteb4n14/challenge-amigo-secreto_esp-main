@@ -12,7 +12,7 @@ function agregarAmigo() {
 
 function mostrarAmigos() {
     let lista = document.getElementById("listaAmigos"); //no se usa value porque ul solo es un contenedor de sub elementos como li 
-    lista.replaceChildren();
+    lista.innerHTML = ""
 
     for (let nombre of nombres) {
         let li = document.createElement("li");
